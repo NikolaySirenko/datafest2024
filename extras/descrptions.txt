@@ -1,5 +1,5 @@
 YYYMMDD= date
-HH=  hour
+HH= hour
 DD= Wind direction(degrees)
 FH= Hourly average wind(in 0.1 m/s)
 FF =  Wind speed  last 10 minuts(in 0.1 m/s)
@@ -15,10 +15,20 @@ VV = air transparaty (0=less than 100m, 1=100-200m, 2=200-300m,..., 49=4900-5000
 N= Cloud cover (coverage of the upper sky in eighths)(9=upper sky invisible)
 U = Relative humidity (in percent) at 1.50 m h
 WW = Weather code (00-99)
-IX = Weather code indicator for the method of observation at a manned or automatic station (1=manned using code from visual observations, 2.3=manned and omitted (no significant weather phenomenon, no data), 4=automatic and recorded (using code from visual observations), 5.6=automatic and omitted (no important weather phenomenon, no data), 7=automatic using code from automatic observations) / Indicator present weather code (1=manned and recorded (using code from visual observations) , 2.3=manned and omitted (no significant weather phenomenon to report, not available), 4=automatically recorded (using code from visual observations), 5.6=automatically omitted (no significant weather phenomenon to report, not available), 7=automatically set (using code from automated observations)
-R = Rain (0=did not occur, 1=occurred during the preceding hour and/or during the observation / Rainfall 0=no occurrence, 1=occurred during the preceding hour and/or at the time of observation)
-S = Snow (0=did not occur, 1=occurred during the preceding hour and/or during the observation / Snow 0=no occurrence, 1=occurred during the preceding hour and/or at the time of observation)
-O = Thunder (0=did not occur, 1=occurred during the preceding hour and/or during the observation / Thunder 0=no occurrence, 1=occurred during the preceding hour and/or at the time of observation)
-Y = Ice formation (0=did not occur, 1=occurred during the preceding hour and/or during the observation / Ice formation 0=no occurrence, 1=occurred during the preceding hour and/or at the time of observation)
 
+IX = Weather code indicator for the method of observation at a manned or automatic station 
+
+(1=manned using code from visual observations, 
+2.3=manned and omitted (no significant weather phenomenon, no data), 
+4=automatic and recorded (using code from visual observations), 
+5.6=automatic and omitted (no important weather phenomenon, no data), 
+7=automatic using code from automatic observations) 
+
+
+
+
+R = Rain (0=did not occur, 1=occurred during the preceding hour and/or during the observation)
+S = Snow (0=did not occur, 1=occurred during the preceding hour and/or during the observation)
+O = Thunder (0=did not occur, 1=occurred during the preceding hour and/or during the observation)
+Y = Ice formation (0=did not occur, 1=occurred during the preceding hour and/or during the observation)
 
