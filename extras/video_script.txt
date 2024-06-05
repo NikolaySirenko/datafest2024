@@ -1,0 +1,24 @@
+Datafest2024 Data for mobility - Team 3 - Video
+
+Each hour of the year is used as unit of analysis
+
+NDW average calculations for trafic intensity and speed are being disregarded to account for this unit of analysis.
+Instead trafic intensity and speed are being aggregated over each individual hour. 
+Bridge opennings undergo simillar aggregation to construct a new feature - the number of seconds the bridge was open during each individual hour.
+
+We finished one hot-encoding of national and school holidays
+
+We are currently onstructing a new dataframe with 8760 rows (one for each hour of year 2023) with the following columns:
+
+- Day of the year
+- hour of the day 
+- average trafic intensity during this hour 
+- average trafic speed during this hour
+- number of seconds the Sloebrug bridge is open during this hour
+- average weather conditions during this hour
+- one-hot encoded binary values to indicate wither the day is a holiday
+- if we have enough time - lag features for the previous hour 
+
+Target - average trafic speed
+Metric - MAE
+Basic modelling technique - Linear Regression
